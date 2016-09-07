@@ -1,6 +1,5 @@
 module Azure.IotHub.Examples.FSharp.Tests
 
-open Azure.IoTHub.Examples.FSharp.CreateDeviceIdentity
 open NUnit.Framework
 
 //[<Test>]
