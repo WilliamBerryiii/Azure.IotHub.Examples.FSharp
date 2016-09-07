@@ -1,0 +1,7 @@
+AzureIoTHub:
+    DeviceKey: value
+    IoTHubUri: value
+    DeviceId: value
+    EndPoint: value
+    ConnectionString: value
+    

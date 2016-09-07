@@ -1,0 +1,78 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{63297B98-5CED-492C-A5B7-A5B4F73CF142}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{BF60BC93-E09B-4E5F-9D85-95A519479D54}"
+	ProjectSection(SolutionItems) = preProject
+		build.fsx = build.fsx
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{83F16175-43B1-4C90-A1EE-8E351C33435D}"
+	ProjectSection(SolutionItems) = preProject
+		docs\tools\generate.fsx = docs\tools\generate.fsx
+		docs\tools\templates\template.cshtml = docs\tools\templates\template.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{8E6D5255-776D-4B61-85F9-73C37AA1FB9A}"
+	ProjectSection(SolutionItems) = preProject
+		docs\content\index.fsx = docs\content\index.fsx
+		docs\content\tutorial.fsx = docs\content\tutorial.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED8079DD-2B06-4030-9F0F-DC548F98E1C4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.Tests", "tests\Azure.IoTHub.Examples.FSharp.Tests\Azure.IoTHub.Examples.FSharp.Tests.fsproj", "{7FAE5877-9F14-405A-BD23-5E7687D00107}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.CreateDeviceIdentity", "src\Azure.IoTHub.Examples.FSharp.CreateDeviceIdentity\Azure.IoTHub.Examples.FSharp.CreateDeviceIdentity.fsproj", "{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.ReadDeviceToCloudMessages", "src\Azure.IoTHub.Examples.FSharp.ReadDeviceToCloudMessages\Azure.IoTHub.Examples.FSharp.ReadDeviceToCloudMessages.fsproj", "{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azure.IoTHub.Examples.FSharp.SimulatedDevice", "src\Azure.IoTHub.Examples.FSharp.SimulatedDevice\Azure.IoTHub.Examples.FSharp.SimulatedDevice.fsproj", "{A030563D-CC13-44AF-802C-775085B9F942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "configuration", "configuration", "{B914305E-C266-4A47-B7C5-3F857B446D74}"
+	ProjectSection(SolutionItems) = preProject
+		src\config\config.yaml = src\config\config.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FAE5877-9F14-405A-BD23-5E7687D00107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAE5877-9F14-405A-BD23-5E7687D00107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAE5877-9F14-405A-BD23-5E7687D00107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAE5877-9F14-405A-BD23-5E7687D00107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0349E5AF-C909-4BD1-AF6B-1464BF4A3E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217A1C20-37AE-4E2D-BE28-4BE7CEE22B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A030563D-CC13-44AF-802C-775085B9F942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83F16175-43B1-4C90-A1EE-8E351C33435D} = {A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}
+		{8E6D5255-776D-4B61-85F9-73C37AA1FB9A} = {A6A6AF7D-D6E3-442D-9B1E-58CC91879BE1}
+		{7FAE5877-9F14-405A-BD23-5E7687D00107} = {ED8079DD-2B06-4030-9F0F-DC548F98E1C4}
+	EndGlobalSection
+EndGlobal

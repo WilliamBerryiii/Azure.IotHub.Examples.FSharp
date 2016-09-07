@@ -1,0 +1,178 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+    DotNetty.Buffers-signed (0.3.2) - framework: >= net45
+      DotNetty.Common-signed (>= 0.3.2)
+    DotNetty.Codecs.Mqtt-signed (0.3.2) - framework: >= net45
+      DotNetty.Buffers-signed (>= 0.3.2)
+      DotNetty.Codecs-signed (>= 0.3.2)
+      DotNetty.Common-signed (>= 0.3.2)
+      DotNetty.Transport-signed (>= 0.3.2)
+    DotNetty.Codecs-signed (0.3.2) - framework: >= net45
+      DotNetty.Buffers-signed (>= 0.3.2)
+      DotNetty.Common-signed (>= 0.3.2)
+      DotNetty.Transport-signed (>= 0.3.2)
+    DotNetty.Common-signed (0.3.2) - framework: >= net45
+    DotNetty.Handlers-signed (0.3.2) - framework: >= net45
+      DotNetty.Buffers-signed (>= 0.3.2)
+      DotNetty.Codecs-signed (>= 0.3.2)
+      DotNetty.Common-signed (>= 0.3.2)
+      DotNetty.Transport-signed (>= 0.3.2)
+    DotNetty.Transport-signed (0.3.2) - framework: >= net45
+      DotNetty.Buffers-signed (>= 0.3.2)
+      DotNetty.Common-signed (>= 0.3.2)
+    EnterpriseLibrary.TransientFaultHandling (6.0.1304) - framework: >= net45
+    FSharp.Configuration (0.6.2)
+    FSharp.Core (4.0.0.1) - redirects: force
+    Microsoft.AspNet.WebApi.Client (5.2.3)
+      Microsoft.Net.Http (>= 2.2.22) - framework: portable-wp80+win+wp81+wpa81
+      Newtonsoft.Json (>= 6.0.4) - framework: >= net45, portable-wp80+win+wp81+wpa81
+    Microsoft.AspNet.WebApi.Core (5.2.3) - framework: >= net45
+      Microsoft.AspNet.WebApi.Client (>= 5.2.3)
+    Microsoft.Azure.Amqp (1.1.5)
+    Microsoft.Azure.Devices (1.0.14)
+      Microsoft.AspNet.WebApi.Client (>= 5.2.3)
+      Microsoft.AspNet.WebApi.Core (>= 5.2.3) - framework: >= net45
+      Microsoft.Azure.Amqp (>= 1.1.5)
+      PCLCrypto (>= 1.0.86)
+    Microsoft.Azure.Devices.Client (1.0.18)
+      DotNetty.Codecs.Mqtt-signed (>= 0.3.2) - framework: >= net45
+      DotNetty.Handlers-signed (>= 0.3.2) - framework: >= net45
+      EnterpriseLibrary.TransientFaultHandling (>= 6.0.1304) - framework: >= net45
+      Microsoft.AspNet.WebApi.Client (>= 5.2.3) - framework: >= net45
+      Microsoft.Azure.Amqp (>= 1.1.5) - framework: >= net45
+      Newtonsoft.Json (>= 6.0.8) - framework: net10, net11, net20, net30, net35, net40, net40-full
+      PCLCrypto (>= 1.0.86)
+      Validation (>= 2.2.8)
+      WindowsAzure.Storage (>= 7.0) - framework: >= net45
+    Microsoft.Azure.KeyVault.Core (1.0) - framework: >= net45
+    Microsoft.Bcl (1.1.10) - framework: portable-wp80+win+wp81+wpa81
+      Microsoft.Bcl.Build (>= 1.0.14)
+    Microsoft.Bcl.Build (1.0.21) - import_targets: false, framework: portable-wp80+win+wp81+wpa81
+    Microsoft.Data.Edm (5.7) - framework: >= net45
+    Microsoft.Data.OData (5.7) - framework: >= net45
+      Microsoft.Data.Edm (5.7)
+      System.Spatial (5.7)
+    Microsoft.Data.Services.Client (5.7) - framework: >= net45
+      Microsoft.Data.OData (5.7)
+    Microsoft.Net.Http (2.2.29) - framework: portable-wp80+win+wp81+wpa81
+      Microsoft.Bcl (>= 1.1.10)
+      Microsoft.Bcl.Build (>= 1.0.14)
+    Microsoft.NETCore.Platforms (1.0.1) - framework: dnxcore50, >= netstandard10
+    Microsoft.NETCore.Targets (1.0.1) - framework: dnxcore50, >= netstandard10
+    Newtonsoft.Json (9.0.1) - framework: >= net10, portable-wp80+win+wp81+wpa81
+    PCLCrypto (2.0.147)
+      PInvoke.NCrypt (>= 0.3.2) - framework: >= net45, dnxcore50, portable-dnxcore50+monoandroid10+monotouch10+unsupported+win+wpa81+xamarinios10
+      Validation (>= 2.2.8)
+    PInvoke.BCrypt (0.3.90) - framework: >= net45
+      PInvoke.Kernel32 (>= 0.3.90) - framework: >= net40, portable-net40+win8+wpa81, portable-net45+win8+wpa81
+      PInvoke.Windows.Core (>= 0.3.90) - framework: >= net40, portable-net40+win8+wpa81, portable-net45+win8+wpa81
+    PInvoke.Kernel32 (0.3.90) - framework: >= net45
+      PInvoke.Windows.Core (>= 0.3.90) - framework: >= net40, portable-net40+win8+wpa81, portable-net45+win8+wpa81
+    PInvoke.NCrypt (0.3.90) - framework: >= net45, dnxcore50, portable-dnxcore50+monoandroid10+monotouch10+unsupported+win+wpa81+xamarinios10
+      PInvoke.BCrypt (>= 0.3.90) - framework: >= net40, portable-net40+win8+wpa81, portable-net45+win8+wpa81
+      PInvoke.Windows.Core (>= 0.3.90) - framework: >= net40, portable-net40+win8+wpa81, portable-net45+win8+wpa81
+    PInvoke.Windows.Core (0.3.90) - framework: >= net45
+    System.Collections (4.0.11) - framework: dnxcore50, netstandard10, >= netstandard16
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, >= netstandard13
+    System.Diagnostics.Debug (4.0.11) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, >= netstandard13
+    System.Diagnostics.Tools (4.0.1) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, >= netstandard10
+      System.Runtime (>= 4.1) - framework: dnxcore50, >= netstandard10
+    System.Globalization (4.0.11) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, >= netstandard13
+    System.IO (4.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      System.Text.Encoding (>= 4.0.11) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      System.Threading.Tasks (>= 4.0.11) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+    System.Linq (4.1) - framework: dnxcore50, >= netstandard10
+      System.Collections (>= 4.0.11) - framework: dnxcore50, netstandard10, >= netstandard16
+      System.Diagnostics.Debug (>= 4.0.11) - framework: dnxcore50, >= netstandard16
+      System.Resources.ResourceManager (>= 4.0.1) - framework: dnxcore50, >= netstandard16
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, >= netstandard16
+      System.Runtime.Extensions (>= 4.1) - framework: dnxcore50, >= netstandard16
+    System.Reflection (4.1) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      System.IO (>= 4.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      System.Reflection.Primitives (>= 4.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+    System.Reflection.Primitives (4.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, >= netstandard10
+      System.Runtime (>= 4.1) - framework: dnxcore50, >= netstandard10
+    System.Resources.ResourceManager (4.0.1) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, >= netstandard10
+      System.Globalization (>= 4.0.11) - framework: dnxcore50, >= netstandard10
+      System.Reflection (>= 4.1) - framework: dnxcore50, >= netstandard10
+      System.Runtime (>= 4.1) - framework: dnxcore50, >= netstandard10
+    System.Runtime (4.1) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard12, netstandard13, >= netstandard15
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard12, netstandard13, >= netstandard15
+    System.Runtime.Extensions (4.1) - framework: dnxcore50, >= netstandard16
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+    System.Spatial (5.7) - framework: >= net45
+    System.Text.Encoding (4.0.11) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, >= netstandard13
+    System.Threading.Tasks (4.0.11) - framework: dnxcore50, >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      Microsoft.NETCore.Targets (>= 1.0.1) - framework: dnxcore50, netstandard10, >= netstandard13
+      System.Runtime (>= 4.1) - framework: dnxcore50, netstandard10, >= netstandard13
+    Validation (2.3.7)
+      System.Diagnostics.Debug (>= 4.0) - framework: dnxcore50, >= netstandard10
+      System.Diagnostics.Tools (>= 4.0) - framework: dnxcore50, >= netstandard10
+      System.Globalization (>= 4.0) - framework: dnxcore50, >= netstandard10
+      System.Linq (>= 4.0) - framework: dnxcore50, >= netstandard10
+      System.Reflection (>= 4.0) - framework: dnxcore50, >= netstandard10
+      System.Resources.ResourceManager (>= 4.0) - framework: dnxcore50, >= netstandard10
+      System.Runtime (>= 4.0) - framework: dnxcore50, >= netstandard10
+      System.Threading.Tasks (>= 4.0) - framework: dnxcore50, >= netstandard10
+    WindowsAzure.ServiceBus (3.3.2)
+    WindowsAzure.Storage (7.2) - framework: >= net45
+      Microsoft.Azure.KeyVault.Core (>= 1.0) - framework: >= net40, wpv8.0
+      Microsoft.Data.OData (>= 5.6.4) - framework: >= net40, >= netstandard13, winv4.5, wpv8.0, wpav8.1
+      Microsoft.Data.Services.Client (>= 5.6.4) - framework: >= net40, >= netstandard13
+      Newtonsoft.Json (>= 6.0.8) - framework: >= net40, winv4.5, wpv8.0, wpav8.1
+
+GROUP Build
+NUGET
+  remote: https://www.nuget.org/api/v2
+    FAKE (4.39.1)
+    FSharp.Compiler.Service (2.0.0.6)
+    FSharp.Formatting (2.14.4)
+      FSharp.Compiler.Service (2.0.0.6)
+      FSharpVSPowerTools.Core (>= 2.3 < 2.4)
+    FSharpVSPowerTools.Core (2.3)
+      FSharp.Compiler.Service (>= 2.0.0.3)
+    Microsoft.Bcl (1.1.10) - framework: net10, net11, net20, net30, net35, net40, net40-full
+      Microsoft.Bcl.Build (>= 1.0.14)
+    Microsoft.Bcl.Build (1.0.21) - import_targets: false, framework: net10, net11, net20, net30, net35, net40, net40-full
+    Microsoft.Net.Http (2.2.29) - framework: net10, net11, net20, net30, net35, net40, net40-full
+      Microsoft.Bcl (>= 1.1.10)
+      Microsoft.Bcl.Build (>= 1.0.14)
+    Octokit (0.22)
+      Microsoft.Net.Http  - framework: net10, net11, net20, net30, net35, net40, net40-full
+    SourceLink.Fake (1.1)
+GITHUB
+  remote: fsharp/FAKE
+    modules/Octokit/Octokit.fsx (73589a85a5e30a2c78d61efccdd3446a99483142)
+      Octokit (>= 0.20)
+GROUP Test
+NUGET
+  remote: https://www.nuget.org/api/v2
+    NUnit (2.6.4)
+    NUnit.Runners (2.6.4)
